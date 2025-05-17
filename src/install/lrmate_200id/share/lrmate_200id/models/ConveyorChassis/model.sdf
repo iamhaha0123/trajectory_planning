@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="conveyor_belt">
+
+    <!-- 固定底座 -->
+    <model name="conveyorbelt_fixed">
+      <static>true</static>
+      <link name="chassis">
+        <inertial>
+          <mass>120.14395</mass>
+          <inertia>
+            <ixx>0.095329</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.381317</iyy>
+            <iyz>0</iyz>
+            <izz>0.476646</izz>
+          </inertia>
+        </inertial>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <scale>1e-3 1e-3 1e-3</scale>
+              <uri>model://ConveyorChassis/meshes/ConveyorChassis.stl</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0.3 0.3 0.3 1</specular>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <scale>1e-3 1e-3 1e-3</scale>
+              <uri>model://ConveyorChassis/meshes/ConveyorChassis.stl</uri>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- 可動履帶表面 -->
+    <model name="conveyorbelt_moving">
+      <static>false</static>
+      <pose>0 0.83 0.05025 0 0 0</pose>
+      <link name="belt_surface">
+        <inertial>
+          <mass>1.0</mass>
+          <inertia>
+            <ixx>0.01</ixx> 
+            <iyy>0.01</iyy> 
+            <izz>0.01</izz>
+            <ixy>0</ixy> 
+            <ixz>0</ixz> 
+            <iyz>0</iyz>
+          </inertia>
+        </inertial>
+        <visual name="visual">
+          <pose>0 0 0 1.57 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://ConveyorBelt/meshes/ConveyorBelt_belt_surface.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1</ambient>
+            <diffuse>0.2 0.2 0.2 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>4.1 0.4795 0.02</size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>100</mu2>
+              </ode>
+              <torsional>
+                <coefficient>1000</coefficient>
+                <patch_radius>0.1</patch_radius>
+              </torsional>
+            </friction>
+          </surface>
+        </collision>
+      </link>
+    </model>
+
+    <!-- 可動履帶與底座之間的連接 -->
+    <joint name="belt_joint" type="prismatic">
+      <parent>conveyorbelt_fixed::chassis</parent>
+      <child>conveyorbelt_moving::belt_surface</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
+        </limit>
+      </axis>
+    </joint>
+
+    <!-- 插入 Plugin -->
+    <plugin filename="libros2_conveyorbelt_plugin.so" name="ros2_conveyorbelt_plugin">
+      <ros>
+        <namespace></namespace>
+      </ros>
+      <max_velocity>1.0</max_velocity>
+      <publish_rate>1000</publish_rate>
+    </plugin>
+
+  </model>
+</sdf>

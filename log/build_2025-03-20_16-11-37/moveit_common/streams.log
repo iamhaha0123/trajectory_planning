@@ -1,0 +1,34 @@
+[0.067s] Invoking command in '/home/vboxuser/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ws_moveit/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/install/moveit_common
+[0.333s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.334s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.560s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.720s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.724s] -- Added test 'lint_cmake' to check CMake code style
+[0.727s] -- Added test 'xmllint' to check XML markup files
+[0.735s] -- Configuring done
+[0.736s] -- Generating done
+[0.737s] -- Build files have been written to: /home/vboxuser/ws_moveit/build/moveit_common
+[0.740s] Invoked command in '/home/vboxuser/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ws_moveit/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/install/moveit_common
+[0.742s] Invoking command in '/home/vboxuser/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/build/moveit_common -- -j8 -l8
+[1.654s] Invoked command in '/home/vboxuser/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/build/moveit_common -- -j8 -l8
+[1.672s] Invoking command in '/home/vboxuser/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/build/moveit_common
+[1.697s] -- Install configuration: ""
+[1.697s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[1.697s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[1.697s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[1.697s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[1.697s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/environment/path.sh
+[1.698s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/environment/path.dsv
+[1.698s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/local_setup.bash
+[1.698s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/local_setup.sh
+[1.698s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/local_setup.zsh
+[1.698s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/local_setup.dsv
+[1.702s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/package.dsv
+[1.703s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[1.703s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[1.703s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[1.703s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[1.703s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/package.xml
+[1.703s] -- Up-to-date: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/cmake
+[1.703s] -- Installing: /home/vboxuser/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[1.721s] Invoked command in '/home/vboxuser/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/build/moveit_common

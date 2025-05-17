@@ -1,0 +1,27 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_conveyorbelt_plugin.dir/src/ros2_conveyorbelt_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libros2_conveyorbelt_plugin.so[0m
+[100%] Built target ros2_conveyorbelt_plugin
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/library_path.sh
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/library_path.dsv
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/lib/libros2_conveyorbelt_plugin.so
+-- Set runtime path of "/home/vboxuser/ws_moveit/install/ros2_conveyorbelt/lib/libros2_conveyorbelt_plugin.so" to ""
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/python
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/python/SpawnObject.py
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/lib/ros2_conveyorbelt/SpawnObject.py
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ament_index/resource_index/package_run_dependencies/ros2_conveyorbelt
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ament_index/resource_index/parent_prefix_path/ros2_conveyorbelt
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/path.sh
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/path.dsv
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.bash
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.sh
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.zsh
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.dsv
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.dsv
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ament_index/resource_index/packages/ros2_conveyorbelt
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ros2_conveyorbeltConfig.cmake
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ros2_conveyorbeltConfig-version.cmake
+-- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.xml

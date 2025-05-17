@@ -1,0 +1,320 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-6b7e33b3b724687c7802.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						12,
+						19
+					]
+				},
+				{
+					"build" : "rviz_plugin_render_tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-rviz_plugin_render_tools-Release-ed7fbc9f2a30e68a893a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "rviz_plugin_render_tools",
+					"targetIndexes" : 
+					[
+						13,
+						14
+					]
+				},
+				{
+					"build" : "robot_state_rviz_plugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-robot_state_rviz_plugin-Release-5f75891e8cd150b324a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "robot_state_rviz_plugin",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "planning_scene_rviz_plugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-planning_scene_rviz_plugin-Release-5946fc75f36135deaa29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "planning_scene_rviz_plugin",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "motion_planning_rviz_plugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-motion_planning_rviz_plugin-Release-c1c480d7a46ee07ff19c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "motion_planning_rviz_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "trajectory_rviz_plugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-trajectory_rviz_plugin-Release-1b3a25f294a9327a8e29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "trajectory_rviz_plugin",
+					"targetIndexes" : 
+					[
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "moveit_ros_visualization",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "moveit_motion_planning_rviz_plugin::@52165aa309b6597994f1",
+					"jsonFile" : "target-moveit_motion_planning_rviz_plugin-Release-97d3c61bc9555171210a.json",
+					"name" : "moveit_motion_planning_rviz_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "moveit_motion_planning_rviz_plugin_autogen::@52165aa309b6597994f1",
+					"jsonFile" : "target-moveit_motion_planning_rviz_plugin_autogen-Release-2844f4c6a0bef583f5b7.json",
+					"name" : "moveit_motion_planning_rviz_plugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "moveit_motion_planning_rviz_plugin_core::@52165aa309b6597994f1",
+					"jsonFile" : "target-moveit_motion_planning_rviz_plugin_core-Release-8a1f6c8b729e09291d19.json",
+					"name" : "moveit_motion_planning_rviz_plugin_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "moveit_motion_planning_rviz_plugin_core_autogen::@52165aa309b6597994f1",
+					"jsonFile" : "target-moveit_motion_planning_rviz_plugin_core_autogen-Release-84635c9bd74fb3646465.json",
+					"name" : "moveit_motion_planning_rviz_plugin_core_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "moveit_planning_scene_rviz_plugin::@0526de66a6d4fe5c596d",
+					"jsonFile" : "target-moveit_planning_scene_rviz_plugin-Release-39c1c50bc89253a07481.json",
+					"name" : "moveit_planning_scene_rviz_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "moveit_planning_scene_rviz_plugin_autogen::@0526de66a6d4fe5c596d",
+					"jsonFile" : "target-moveit_planning_scene_rviz_plugin_autogen-Release-e9d335d9119ef0de8456.json",
+					"name" : "moveit_planning_scene_rviz_plugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "moveit_planning_scene_rviz_plugin_core::@0526de66a6d4fe5c596d",
+					"jsonFile" : "target-moveit_planning_scene_rviz_plugin_core-Release-e8318587dcab0ab42b22.json",
+					"name" : "moveit_planning_scene_rviz_plugin_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "moveit_planning_scene_rviz_plugin_core_autogen::@0526de66a6d4fe5c596d",
+					"jsonFile" : "target-moveit_planning_scene_rviz_plugin_core_autogen-Release-c105cf0f4c794ec89f7e.json",
+					"name" : "moveit_planning_scene_rviz_plugin_core_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "moveit_robot_state_rviz_plugin::@3cccd1ee7f0cc842f242",
+					"jsonFile" : "target-moveit_robot_state_rviz_plugin-Release-1b3e57eb7e9a3ec783d6.json",
+					"name" : "moveit_robot_state_rviz_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "moveit_robot_state_rviz_plugin_autogen::@3cccd1ee7f0cc842f242",
+					"jsonFile" : "target-moveit_robot_state_rviz_plugin_autogen-Release-5a9c6f4c2dd82bfa0552.json",
+					"name" : "moveit_robot_state_rviz_plugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "moveit_robot_state_rviz_plugin_core::@3cccd1ee7f0cc842f242",
+					"jsonFile" : "target-moveit_robot_state_rviz_plugin_core-Release-c01975ad95a29e43eb73.json",
+					"name" : "moveit_robot_state_rviz_plugin_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "moveit_robot_state_rviz_plugin_core_autogen::@3cccd1ee7f0cc842f242",
+					"jsonFile" : "target-moveit_robot_state_rviz_plugin_core_autogen-Release-28f65aeaf5fa1ac82f87.json",
+					"name" : "moveit_robot_state_rviz_plugin_core_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_visualization_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_visualization_uninstall-Release-c21dd0c3e33f944ae91d.json",
+					"name" : "moveit_ros_visualization_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_rviz_plugin_render_tools::@11af576cd519c4ccae31",
+					"jsonFile" : "target-moveit_rviz_plugin_render_tools-Release-988db450a92b2680af62.json",
+					"name" : "moveit_rviz_plugin_render_tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_rviz_plugin_render_tools_autogen::@11af576cd519c4ccae31",
+					"jsonFile" : "target-moveit_rviz_plugin_render_tools_autogen-Release-d1763f781b5476b5ec77.json",
+					"name" : "moveit_rviz_plugin_render_tools_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "moveit_trajectory_rviz_plugin::@ea9655eb8b0ab182c77d",
+					"jsonFile" : "target-moveit_trajectory_rviz_plugin-Release-e7ef6771d243b7e3d6a2.json",
+					"name" : "moveit_trajectory_rviz_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "moveit_trajectory_rviz_plugin_autogen::@ea9655eb8b0ab182c77d",
+					"jsonFile" : "target-moveit_trajectory_rviz_plugin_autogen-Release-4db81074c8dfe7d2131f.json",
+					"name" : "moveit_trajectory_rviz_plugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "moveit_trajectory_rviz_plugin_core::@ea9655eb8b0ab182c77d",
+					"jsonFile" : "target-moveit_trajectory_rviz_plugin_core-Release-632d18abed3ec7ebe50a.json",
+					"name" : "moveit_trajectory_rviz_plugin_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "moveit_trajectory_rviz_plugin_core_autogen::@ea9655eb8b0ab182c77d",
+					"jsonFile" : "target-moveit_trajectory_rviz_plugin_core_autogen-Release-753f66da81d630993b6f.json",
+					"name" : "moveit_trajectory_rviz_plugin_core_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9ed20e5526e73070585f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/ws_moveit/build/moveit_ros_visualization",
+		"source" : "/home/vboxuser/ws_moveit/src/moveit2/moveit_ros/visualization"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
