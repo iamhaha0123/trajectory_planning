@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_planning[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o[0m
+[ 50%] Built target joint_to_ee_pose
+[ 83%] Built target simple_planning
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:17:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ is not a member of ‘[01m[Kmoveit::planning_interface[m[K’
+   17 |   moveit::planning_interface::[01;31m[KMoveGroupInterface[m[K arm(node, "manipulator");
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:18:32:[m[K [01;31m[Kerror: [m[K‘[01m[Karm[m[K’ was not declared in this scope
+   18 |   std::string planning_frame = [01;31m[Karm[m[K.getPlanningFrame();   // 例：Base 或 world
+      |                                [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/scene_initializer.dir/build.make:76: CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/scene_initializer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

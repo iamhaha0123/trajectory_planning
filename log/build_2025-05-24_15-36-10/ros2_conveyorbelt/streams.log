@@ -1,0 +1,28 @@
+[0.088s] Invoking command in '/home/vboxuser/ws_moveit/build/ros2_conveyorbelt': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/ws_moveit/build/ros2_conveyorbelt -- -j8 -l8
+[0.789s] [100%] Built target ros2_conveyorbelt_plugin
+[0.801s] Invoked command in '/home/vboxuser/ws_moveit/build/ros2_conveyorbelt' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/ws_moveit/build/ros2_conveyorbelt -- -j8 -l8
+[0.837s] Invoking command in '/home/vboxuser/ws_moveit/build/ros2_conveyorbelt': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/ws_moveit/build/ros2_conveyorbelt
+[0.852s] -- Install configuration: ""
+[0.853s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/library_path.sh
+[0.853s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/library_path.dsv
+[1.033s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/lib/libros2_conveyorbelt_plugin.so
+[1.034s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/python
+[1.092s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/python/SpawnObject.py
+[1.094s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/lib/ros2_conveyorbelt/SpawnObject.py
+[1.103s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ament_index/resource_index/package_run_dependencies/ros2_conveyorbelt
+[1.111s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ament_index/resource_index/parent_prefix_path/ros2_conveyorbelt
+[1.111s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/ament_prefix_path.sh
+[1.111s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/ament_prefix_path.dsv
+[1.111s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/path.sh
+[1.112s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/path.dsv
+[1.112s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.bash
+[1.112s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.sh
+[1.112s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.zsh
+[1.112s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.dsv
+[1.112s] -- Installing: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.dsv
+[1.113s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ament_index/resource_index/packages/ros2_conveyorbelt
+[1.113s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ament_cmake_export_libraries-extras.cmake
+[1.113s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ros2_conveyorbeltConfig.cmake
+[1.113s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ros2_conveyorbeltConfig-version.cmake
+[1.113s] -- Up-to-date: /home/vboxuser/ws_moveit/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.xml
+[1.116s] Invoked command in '/home/vboxuser/ws_moveit/build/ros2_conveyorbelt' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/ws_moveit/build/ros2_conveyorbelt

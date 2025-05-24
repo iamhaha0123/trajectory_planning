@@ -1,0 +1,4 @@
+Invoking command in '/home/vboxuser/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/build/moveit_common -- -j8 -l8
+Invoked command in '/home/vboxuser/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/build/moveit_common -- -j8 -l8
+Invoking command in '/home/vboxuser/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/build/moveit_common
+Invoked command in '/home/vboxuser/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/build/moveit_common

@@ -64,6 +64,8 @@ CMAKE_BINARY_DIR = /home/vboxuser/ws_moveit/build/hello_moveit
 
 # The main recursive "all" target.
 all: CMakeFiles/simple_planning.dir/all
+all: CMakeFiles/joint_to_ee_pose.dir/all
+all: CMakeFiles/scene_initializer.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +76,8 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/hello_moveit_uninstall.dir/clean
 clean: CMakeFiles/simple_planning.dir/clean
+clean: CMakeFiles/joint_to_ee_pose.dir/clean
+clean: CMakeFiles/scene_initializer.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +139,7 @@ CMakeFiles/hello_moveit_uninstall.dir/clean:
 CMakeFiles/simple_planning.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_planning.dir/build.make CMakeFiles/simple_planning.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_planning.dir/build.make CMakeFiles/simple_planning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles --progress-num=1,2 "Built target simple_planning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles --progress-num=5,6 "Built target simple_planning"
 .PHONY : CMakeFiles/simple_planning.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +157,58 @@ simple_planning: CMakeFiles/simple_planning.dir/rule
 CMakeFiles/simple_planning.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_planning.dir/build.make CMakeFiles/simple_planning.dir/clean
 .PHONY : CMakeFiles/simple_planning.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/joint_to_ee_pose.dir
+
+# All Build rule for target.
+CMakeFiles/joint_to_ee_pose.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_to_ee_pose.dir/build.make CMakeFiles/joint_to_ee_pose.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_to_ee_pose.dir/build.make CMakeFiles/joint_to_ee_pose.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles --progress-num=1,2 "Built target joint_to_ee_pose"
+.PHONY : CMakeFiles/joint_to_ee_pose.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/joint_to_ee_pose.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/joint_to_ee_pose.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles 0
+.PHONY : CMakeFiles/joint_to_ee_pose.dir/rule
+
+# Convenience name for target.
+joint_to_ee_pose: CMakeFiles/joint_to_ee_pose.dir/rule
+.PHONY : joint_to_ee_pose
+
+# clean rule for target.
+CMakeFiles/joint_to_ee_pose.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_to_ee_pose.dir/build.make CMakeFiles/joint_to_ee_pose.dir/clean
+.PHONY : CMakeFiles/joint_to_ee_pose.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/scene_initializer.dir
+
+# All Build rule for target.
+CMakeFiles/scene_initializer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_initializer.dir/build.make CMakeFiles/scene_initializer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_initializer.dir/build.make CMakeFiles/scene_initializer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles --progress-num=3,4 "Built target scene_initializer"
+.PHONY : CMakeFiles/scene_initializer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/scene_initializer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/scene_initializer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles 0
+.PHONY : CMakeFiles/scene_initializer.dir/rule
+
+# Convenience name for target.
+scene_initializer: CMakeFiles/scene_initializer.dir/rule
+.PHONY : scene_initializer
+
+# clean rule for target.
+CMakeFiles/scene_initializer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_initializer.dir/build.make CMakeFiles/scene_initializer.dir/clean
+.PHONY : CMakeFiles/scene_initializer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

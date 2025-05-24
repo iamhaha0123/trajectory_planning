@@ -1,0 +1,8 @@
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene_interface/planning_scene_interface.hpp: No such file or directory
+    2 | #include [01;31m[K<moveit/planning_scene_interface/planning_scene_interface.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/scene_initializer.dir/build.make:76: CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/scene_initializer.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

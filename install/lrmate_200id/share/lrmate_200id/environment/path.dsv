@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/vboxuser/ws_moveit/build/lrmate_200id/ament_cmake_environment_hooks/path.dsv

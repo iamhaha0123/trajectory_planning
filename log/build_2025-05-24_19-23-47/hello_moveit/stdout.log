@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_planning[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/trajectory_listener.dir/src/trajectory_listener.cpp.o[0m
+[ 37%] Built target joint_to_ee_pose
+[ 62%] Built target scene_initializer
+[ 87%] Built target simple_planning

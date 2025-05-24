@@ -8,7 +8,7 @@
     </link>
     <joint name = "base_fixed" type = "fixed">
       <origin
-        xyz = "0 0 0"
+        xyz = "0 0 0.811"
         rpy="0 0 0" />
       <parent link = "world"/>
       <child link = "Base"/>
@@ -18,7 +18,7 @@
     name="Base">
     <inertial>
       <origin
-        xyz="-0.00682678184455439 0.0804225935378344 0.00032167938539702"
+        xyz="-0.00682678184455439 0.0804225935378344 0.200032167938539702"
         rpy="0 0 0" />
       <mass
         value="4.85328944881567" />

@@ -1,0 +1,10 @@
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:53:11:[m[K [01;31m[Kerror: [m[K‘[01m[KconstructMsgFromShape[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   53 |   shapes::[01;31m[KconstructMsgFromShape[m[K(mesh_chassis, chassis_mesh_msg);
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:73:11:[m[K [01;31m[Kerror: [m[K‘[01m[KconstructMsgFromShape[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   73 |   shapes::[01;31m[KconstructMsgFromShape[m[K(mesh_belt, belt_mesh_msg);
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/scene_initializer.dir/build.make:76: CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/scene_initializer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,3 @@
+[ 25%] Built target joint_to_ee_pose
+[ 50%] Built target scene_initializer
+[ 75%] Built target simple_planning

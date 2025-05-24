@@ -1,2 +1,1 @@
-source;share/lrmate_200id/environment/ament_prefix_path.sh
-source;share/lrmate_200id/environment/path.sh
+/home/vboxuser/ws_moveit/build/lrmate_200id/ament_cmake_environment_hooks/local_setup.dsv

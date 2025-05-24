@@ -1,0 +1,16 @@
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:46:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kshape_msgs::msg::SolidPrimitive primitive[m[K’
+   46 |   shape_msgs::msg::SolidPrimitive [01;31m[Kprimitive[m[K;
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:27:35:[m[K [01;36m[Knote: [m[K‘[01m[Kshape_msgs::msg::SolidPrimitive primitive[m[K’ previously declared here
+   27 |   shape_msgs::msg::SolidPrimitive [01;36m[Kprimitive[m[K;
+      |                                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:50:28:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::Pose pose[m[K’
+   50 |   geometry_msgs::msg::Pose [01;31m[Kpose[m[K;
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:31:28:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose pose[m[K’ previously declared here
+   31 |   geometry_msgs::msg::Pose [01;36m[Kpose[m[K;
+      |                            [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/scene_initializer.dir/build.make:76: CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/scene_initializer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

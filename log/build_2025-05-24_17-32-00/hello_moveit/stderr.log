@@ -1,0 +1,13 @@
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:112:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmoveit_msgs::msg::CollisionObject[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::CollisionObject_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<moveit_msgs::msg::CollisionObject_<std::allocator<void> >, std::allocator<moveit_msgs::msg::CollisionObject_<std::allocator<void> > > >&[m[K’
+  112 |   psi.applyCollisionObjects([01;31m[Kchassis[m[K);
+      |                             [01;31m[K^~~~~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kmoveit_msgs::msg::CollisionObject {aka moveit_msgs::msg::CollisionObject_<std::allocator<void> >}[m[K
+In file included from [01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:3[m[K:
+[01m[K/home/vboxuser/ws_moveit/install/moveit_ros_planning_interface/include/moveit/planning_scene_interface/planning_scene_interface.h:114:61:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool moveit::planning_interface::PlanningSceneInterface::applyCollisionObjects(const std::vector<moveit_msgs::msg::CollisionObject_<std::allocator<void> >, std::allocator<moveit_msgs::msg::CollisionObject_<std::allocator<void> > > >&, const std::vector<moveit_msgs::msg::ObjectColor_<std::allocator<void> >, std::allocator<moveit_msgs::msg::ObjectColor_<std::allocator<void> > > >&)[m[K’
+  114 |       [01;36m[Kconst std::vector<moveit_msgs::msg::CollisionObject>& collision_objects[m[K,
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/scene_initializer.dir/build.make:76: CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/scene_initializer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,6 @@
+Invoking command in '/home/vboxuser/ws_moveit/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ws_moveit/src/IFRA_ConveyorBelt/conveyorbelt_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs
+Invoked command in '/home/vboxuser/ws_moveit/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ws_moveit/src/IFRA_ConveyorBelt/conveyorbelt_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/install/conveyorbelt_msgs
+Invoking command in '/home/vboxuser/ws_moveit/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/build/conveyorbelt_msgs -- -j8 -l8
+Invoked command in '/home/vboxuser/ws_moveit/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/build/conveyorbelt_msgs -- -j8 -l8
+Invoking command in '/home/vboxuser/ws_moveit/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/build/conveyorbelt_msgs
+Invoked command in '/home/vboxuser/ws_moveit/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/build/conveyorbelt_msgs

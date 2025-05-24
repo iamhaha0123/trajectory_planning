@@ -1,0 +1,45 @@
+gmake[1]: *** [CMakeFiles/Makefile2:499: test/CMakeFiles/moveit_task_constructor_core-test-mockups.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:415: src/stages/CMakeFiles/moveit_task_constructor_core_stage_plugins.dir/all] Interrupt
+gmake[2]: *** [test/CMakeFiles/moveit_task_constructor_core-test-pruning.dir/build.make:383: test/CMakeFiles/moveit_task_constructor_core-test-pruning.dir/depend] Interrupt
+Traceback (most recent call last):
+  File "/home/vboxuser/ws_moveit/build/moveit_task_constructor_core/ament_cmake_python/moveit/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:620: test/CMakeFiles/moveit_task_constructor_core-test-pruning.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:441: python/bindings/CMakeFiles/pymoveit_mtc.dir/all] Interrupt
+gmake[2]: *** [test/CMakeFiles/moveit_task_constructor_core-test-serial.dir/build.make:383: test/CMakeFiles/moveit_task_constructor_core-test-serial.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:529: test/CMakeFiles/moveit_task_constructor_core-test-stage.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:589: test/CMakeFiles/moveit_task_constructor_core-test-serial.dir/all] Interrupt
+gmake[2]: *** [test/CMakeFiles/moveit_task_constructor_core-test-container.dir/build.make:383: test/CMakeFiles/moveit_task_constructor_core-test-container.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:558: test/CMakeFiles/moveit_task_constructor_core-test-container.dir/all] Interrupt
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+    def _initialize_master_working_set():
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+    ws = cls()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+    self.add_entry(entry)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+    for dist in factory(fullpath):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+    yield Distribution.from_location(
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2603, in from_location
+    return cls(
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2584, in __init__
+    self._version = safe_version(version)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version
+    return str(packaging.version.Version(version))
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 274, in __init__
+    match.group("post_l"), match.group("post_n1") or match.group("post_n2")
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_moveit_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_moveit_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/ament_cmake_python_build_moveit_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

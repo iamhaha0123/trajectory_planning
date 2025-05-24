@@ -7,7 +7,7 @@
 
 int main(int argc, char *argv[])
 {
-  // 初始化 ROS 2 節點
+  //初始化 ROS 2 節點
   rclcpp::init(argc, argv);
   auto const node = std::make_shared<rclcpp::Node>(
     "simple_planning",
@@ -15,6 +15,10 @@ int main(int argc, char *argv[])
   );
 
   auto const logger = rclcpp::get_logger("simple_planning");
+
+  //publisher
+  auto trajectory_pub = node->create_publisher<trajectory_msgs::msg::JointTrajectory>(
+  "planned_trajectory", 10);
 
   // 建立 SingleThreadedExecutor 並將節點加入
   rclcpp::executors::SingleThreadedExecutor executor;
@@ -38,39 +42,8 @@ int main(int argc, char *argv[])
   target_pose.orientation.w = 1.0;
   target_pose.position.x = 0.5;
   target_pose.position.y = 0.0;
-  target_pose.position.z = 0.8;
+  target_pose.position.z = 1.6;
   move_group_interface.setPoseTarget(target_pose);
-
-  // 障礙物的部分 
-  /*
-  auto const collision_object = [frame_id = move_group_interface.getPlanningFrame()] {
-    moveit_msgs::msg::CollisionObject collision_object;
-    collision_object.header.frame_id = frame_id;
-    collision_object.id = "obstacle1";
-    shape_msgs::msg::SolidPrimitive primitive;
-
-    primitive.type = primitive.BOX;
-    primitive.dimensions.resize(3);
-    primitive.dimensions[primitive.BOX_X] = 0.05;
-    primitive.dimensions[primitive.BOX_Y] = 0.5;
-    primitive.dimensions[primitive.BOX_Z] = 0.5;
-
-    geometry_msgs::msg::Pose box_pose;
-    box_pose.orientation.w = 1.0;
-    box_pose.position.x = 0.3;
-    box_pose.position.y = 0.0;
-    box_pose.position.z = 1.05;
-
-    collision_object.primitives.push_back(primitive);
-    collision_object.primitive_poses.push_back(box_pose);
-    collision_object.operation = collision_object.ADD;
-
-    return collision_object;
-  }();
-
-  moveit::planning_interface::PlanningSceneInterface planning_scene_interface;
-  planning_scene_interface.applyCollisionObject(collision_object);
-  */
 
   // 建立並初始化 MoveItVisualTools
   namespace rvt = rviz_visual_tools;
@@ -128,6 +101,9 @@ int main(int argc, char *argv[])
   if (success) {
     RCLCPP_INFO(logger, "Planning successful, executing...");
 
+    trajectory_pub->publish(plan.trajectory_.joint_trajectory);
+    RCLCPP_INFO(logger, "Published trajectory to topic 'planned_trajectory'");
+    
     // 視覺化規劃路徑
     draw_trajectory_tool_path(plan.trajectory_);
 

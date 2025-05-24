@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_planning[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o[0m
+[ 50%] Built target joint_to_ee_pose
+[ 83%] Built target simple_planning

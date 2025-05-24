@@ -1,0 +1,8 @@
+[  2%] Built target gmock_main
+[  5%] Built target gmock
+[  8%] Built target gtest
+[ 10%] Built target gtest_main
+[ 10%] Built target ament_cmake_python_copy_moveit
+[ 29%] Built target moveit_task_constructor_core
+[ 34%] Built target gtest_utils
+[ 55%] Built target moveit_task_constructor_core_stages

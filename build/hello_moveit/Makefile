@@ -210,6 +210,80 @@ simple_planning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_planning.dir/build.make CMakeFiles/simple_planning.dir/build
 .PHONY : simple_planning/fast
 
+#=============================================================================
+# Target rules for targets named joint_to_ee_pose
+
+# Build rule for target.
+joint_to_ee_pose: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 joint_to_ee_pose
+.PHONY : joint_to_ee_pose
+
+# fast build rule for target.
+joint_to_ee_pose/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_to_ee_pose.dir/build.make CMakeFiles/joint_to_ee_pose.dir/build
+.PHONY : joint_to_ee_pose/fast
+
+#=============================================================================
+# Target rules for targets named scene_initializer
+
+# Build rule for target.
+scene_initializer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scene_initializer
+.PHONY : scene_initializer
+
+# fast build rule for target.
+scene_initializer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_initializer.dir/build.make CMakeFiles/scene_initializer.dir/build
+.PHONY : scene_initializer/fast
+
+src/joint_to_ee_pose.o: src/joint_to_ee_pose.cpp.o
+.PHONY : src/joint_to_ee_pose.o
+
+# target to build an object file
+src/joint_to_ee_pose.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_to_ee_pose.dir/build.make CMakeFiles/joint_to_ee_pose.dir/src/joint_to_ee_pose.cpp.o
+.PHONY : src/joint_to_ee_pose.cpp.o
+
+src/joint_to_ee_pose.i: src/joint_to_ee_pose.cpp.i
+.PHONY : src/joint_to_ee_pose.i
+
+# target to preprocess a source file
+src/joint_to_ee_pose.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_to_ee_pose.dir/build.make CMakeFiles/joint_to_ee_pose.dir/src/joint_to_ee_pose.cpp.i
+.PHONY : src/joint_to_ee_pose.cpp.i
+
+src/joint_to_ee_pose.s: src/joint_to_ee_pose.cpp.s
+.PHONY : src/joint_to_ee_pose.s
+
+# target to generate assembly for a file
+src/joint_to_ee_pose.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_to_ee_pose.dir/build.make CMakeFiles/joint_to_ee_pose.dir/src/joint_to_ee_pose.cpp.s
+.PHONY : src/joint_to_ee_pose.cpp.s
+
+src/scene_initializer.o: src/scene_initializer.cpp.o
+.PHONY : src/scene_initializer.o
+
+# target to build an object file
+src/scene_initializer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_initializer.dir/build.make CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o
+.PHONY : src/scene_initializer.cpp.o
+
+src/scene_initializer.i: src/scene_initializer.cpp.i
+.PHONY : src/scene_initializer.i
+
+# target to preprocess a source file
+src/scene_initializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_initializer.dir/build.make CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.i
+.PHONY : src/scene_initializer.cpp.i
+
+src/scene_initializer.s: src/scene_initializer.cpp.s
+.PHONY : src/scene_initializer.s
+
+# target to generate assembly for a file
+src/scene_initializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_initializer.dir/build.make CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.s
+.PHONY : src/scene_initializer.cpp.s
+
 src/simple_planning.o: src/simple_planning.cpp.o
 .PHONY : src/simple_planning.o
 
@@ -249,7 +323,15 @@ help:
 	@echo "... test"
 	@echo "... hello_moveit_uninstall"
 	@echo "... uninstall"
+	@echo "... joint_to_ee_pose"
+	@echo "... scene_initializer"
 	@echo "... simple_planning"
+	@echo "... src/joint_to_ee_pose.o"
+	@echo "... src/joint_to_ee_pose.i"
+	@echo "... src/joint_to_ee_pose.s"
+	@echo "... src/scene_initializer.o"
+	@echo "... src/scene_initializer.i"
+	@echo "... src/scene_initializer.s"
 	@echo "... src/simple_planning.o"
 	@echo "... src/simple_planning.i"
 	@echo "... src/simple_planning.s"

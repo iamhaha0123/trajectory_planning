@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target scene_initializer[0m
+[ 33%] Built target simple_planning
+[ 50%] [32mBuilding CXX object CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o[0m
+[ 83%] Built target joint_to_ee_pose
+[100%] [32m[1mLinking CXX executable scene_initializer[0m
+[100%] Built target scene_initializer
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/lib/hello_moveit/simple_planning
+-- Set runtime path of "/home/vboxuser/ws_moveit/install/hello_moveit/lib/hello_moveit/simple_planning" to ""
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/lib/hello_moveit/joint_to_ee_pose
+-- Set runtime path of "/home/vboxuser/ws_moveit/install/hello_moveit/lib/hello_moveit/joint_to_ee_pose" to ""
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/lib/hello_moveit/scene_initializer
+-- Set runtime path of "/home/vboxuser/ws_moveit/install/hello_moveit/lib/hello_moveit/scene_initializer" to ""
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/launch
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/launch/table_demo.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/launch/hello_moveit.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/launch/my_moveit_rviz.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/launch/gazebo.launch.py
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/environment/path.sh
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/environment/path.dsv
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.bash
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.sh
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.zsh
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.dsv
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/package.dsv
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+-- Up-to-date: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+-- Installing: /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/package.xml

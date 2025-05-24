@@ -1,0 +1,72 @@
+[35m[1mConsolidate compiler generated dependencies of target scene_initializer[0m
+[ 33%] Built target joint_to_ee_pose
+[ 50%] [32mBuilding CXX object CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o[0m
+[ 83%] Built target simple_planning
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:43:31:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateMeshFromResource[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   43 |   auto mesh_chassis = shapes::[01;31m[KcreateMeshFromResource[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:45:11:[m[K [01;31m[Kerror: [m[K‘[01m[KShapeMsg[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   45 |   shapes::[01;31m[KShapeMsg[m[K mesh_msg;
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:46:11:[m[K [01;31m[Kerror: [m[K‘[01m[KconstructMsgFromShape[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   46 |   shapes::[01;31m[KconstructMsgFromShape[m[K(mesh_chassis.get(), mesh_msg);
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:46:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmesh_msg[m[K’ was not declared in this scope
+   46 |   shapes::constructMsgFromShape(mesh_chassis.get(), [01;31m[Kmesh_msg[m[K);
+      |                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:47:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kget[m[K’ is not a member of ‘[01m[Kboost[m[K’; did you mean ‘[01m[Kstd::get[m[K’?
+   47 |   chassis.meshes.push_back(boost::[01;31m[Kget[m[K<shape_msgs::msg::Mesh>(mesh_msg));
+      |                                   [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1145:27:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::get[m[K’ declared here
+ 1145 |     constexpr const _Tp&& [01;36m[Kget[m[K(const variant<_Types...>&& __v)
+      |                           [01;36m[K^~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:47:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   47 |   chassis.meshes.push_back(boost::get<shape_msgs::msg::Mesh[01;31m[K>[m[K(mesh_msg));
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:62:28:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateMeshFromResource[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   62 |   auto mesh_belt = shapes::[01;31m[KcreateMeshFromResource[m[K(
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:64:11:[m[K [01;31m[Kerror: [m[K‘[01m[KShapeMsg[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   64 |   shapes::[01;31m[KShapeMsg[m[K mesh_belt_msg;
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:65:11:[m[K [01;31m[Kerror: [m[K‘[01m[KconstructMsgFromShape[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   65 |   shapes::[01;31m[KconstructMsgFromShape[m[K(mesh_belt.get(), mesh_belt_msg);
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:65:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kmesh_belt_msg[m[K’ was not declared in this scope
+   65 |   shapes::constructMsgFromShape(mesh_belt.get(), [01;31m[Kmesh_belt_msg[m[K);
+      |                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:66:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kget[m[K’ is not a member of ‘[01m[Kboost[m[K’; did you mean ‘[01m[Kstd::get[m[K’?
+   66 |   belt.meshes.push_back(boost::[01;31m[Kget[m[K<shape_msgs::msg::Mesh>(mesh_belt_msg));
+      |                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1145:27:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::get[m[K’ declared here
+ 1145 |     constexpr const _Tp&& [01;36m[Kget[m[K(const variant<_Types...>&& __v)
+      |                           [01;36m[K^~~[m[K
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:66:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   66 |   belt.meshes.push_back(boost::get<shape_msgs::msg::Mesh[01;31m[K>[m[K(mesh_belt_msg));
+      |                                                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/scene_initializer.dir/build.make:76: CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/scene_initializer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

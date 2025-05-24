@@ -1,0 +1,7 @@
+gmake[2]: *** No rule to make target '/home/vboxuser/ws_moveit/src/hello_moveit/src/trajectory_listener.cpp', needed by 'CMakeFiles/trajectory_listener.dir/src/trajectory_listener.cpp.o'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/trajectory_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 25%] Built target joint_to_ee_pose
+[ 50%] Built target scene_initializer
+[ 75%] Built target simple_planning
+gmake: *** [Makefile:146: all] Error 2

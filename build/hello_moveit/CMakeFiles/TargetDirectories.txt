@@ -1,6 +1,8 @@
 /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles/uninstall.dir
 /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles/hello_moveit_uninstall.dir
 /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles/simple_planning.dir
+/home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles/joint_to_ee_pose.dir
+/home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles/scene_initializer.dir
 /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles/test.dir
 /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles/edit_cache.dir
 /home/vboxuser/ws_moveit/build/hello_moveit/CMakeFiles/rebuild_cache.dir

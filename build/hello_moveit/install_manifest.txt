@@ -1,4 +1,7 @@
 /home/vboxuser/ws_moveit/install/hello_moveit/lib/hello_moveit/simple_planning
+/home/vboxuser/ws_moveit/install/hello_moveit/lib/hello_moveit/joint_to_ee_pose
+/home/vboxuser/ws_moveit/install/hello_moveit/lib/hello_moveit/scene_initializer
+/home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/launch/table_demo.launch.py
 /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/launch/hello_moveit.launch.py
 /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/launch/my_moveit_rviz.launch.py
 /home/vboxuser/ws_moveit/install/hello_moveit/share/hello_moveit/launch/gazebo.launch.py

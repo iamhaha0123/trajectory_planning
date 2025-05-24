@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target scene_initializer[0m
+[ 33%] Built target joint_to_ee_pose
+[ 66%] Built target simple_planning
+[ 83%] [32mBuilding CXX object CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o[0m
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vboxuser/ws_moveit/src/hello_moveit/src/scene_initializer.cpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope; did you mean ‘[01m[Kq1[m[K’?
+   67 |   [01;31m[Kq[m[K.setRPY(1.57, 0, 1.57);  // RPY: Roll, Pitch, Yaw (弧度)
+      |   [01;31m[K^[m[K
+      |   [32m[Kq1[m[K
+gmake[2]: *** [CMakeFiles/scene_initializer.dir/build.make:76: CMakeFiles/scene_initializer.dir/src/scene_initializer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/scene_initializer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

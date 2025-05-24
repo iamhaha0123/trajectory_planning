@@ -1535,4 +1535,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/hello_moveit_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/simple_planning.dir/DependInfo.cmake"
+  "CMakeFiles/joint_to_ee_pose.dir/DependInfo.cmake"
+  "CMakeFiles/scene_initializer.dir/DependInfo.cmake"
   )

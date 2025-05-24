@@ -1,0 +1,15 @@
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/ament_index/resource_index/package_run_dependencies/lrmate_200id
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/ament_index/resource_index/parent_prefix_path/lrmate_200id
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/environment/ament_prefix_path.sh
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/environment/ament_prefix_path.dsv
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/environment/path.sh
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/environment/path.dsv
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/local_setup.bash
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/local_setup.sh
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/local_setup.zsh
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/local_setup.dsv
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/package.dsv
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/ament_index/resource_index/packages/lrmate_200id
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/cmake/lrmate_200idConfig.cmake
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/cmake/lrmate_200idConfig-version.cmake
+/home/vboxuser/ws_moveit/install/lrmate_200id/share/lrmate_200id/package.xml
